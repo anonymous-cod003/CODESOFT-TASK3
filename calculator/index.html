@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="calculator">
+        <input type="text" id="display" disabled>
+        <div class="keys">
+                  <button onclick="clearDisplay()" style="color: #c45bdc;">AC</button>
+            <button onclick="appendToDisplay('/')" style="color: #c45bdc;">/</button>
+            <button onclick="appendToDisplay('*')" style="color: #c45bdc;">*</button>
+            <button onclick="appendToDisplay('+')" style="color: #c45bdc;">+</button>
+            <button onclick="appendToDisplay('7')" style="color: azure;">7</button>
+            <button onclick="appendToDisplay('8')" style="color: azure;">8</button>
+            <button onclick="appendToDisplay('9')" style="color: azure;">9</button>
+            <button onclick="appendToDisplay('-')" style="color: #c45bdc;">-</button>
+            <button onclick="appendToDisplay('4')" style="color: azure;">4</button>
+            <button onclick="appendToDisplay('5')" style="color: azure;">5</button>
+            <button onclick="appendToDisplay('6')" style="color: azure;">6</button>
+            <button onclick="calculate()" id="extend" style="color: #c45bdc;">=</button>
+            <button onclick="appendToDisplay('1')" style="color: azure;">1</button>
+            <button onclick="appendToDisplay('2')" style="color: azure;">2</button>
+            <button onclick="appendToDisplay('3')" style="color: azure;">3</button>
+            <button onclick="appendToDisplay('0')" id="extends" style="color: azure;">0</button>
+            <button onclick="appendToDisplay('.')" style="color: #c45bdc;">.</button>
+
+
+           
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
